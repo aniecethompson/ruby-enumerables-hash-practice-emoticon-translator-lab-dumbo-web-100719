@@ -21,7 +21,7 @@ def get_japanese_emoticon(path, emoticon)
   end
  end
 
-def get_english_meaning((path, emoticon))
+def get_english_meaning(path, emoticon)
   emoticons = load_library(path)
   result = emoticons["get_meaning"][emoticon] #the same above but change get_meaning
   if result
